@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" ng-app="recipeApp">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="Ben">
+  <meta name="Keywords" content="Recipes">
+  <meta name="Description" content="Backed by AngularJS">
+  <title>Ben's Recipes</title>
+  <link rel="stylesheet" href="main_component/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="main_component/jquery.js"></script>
+  <script src="main_component/angular/angular.js"></script>
+  <script src="main_component/angular-animate/angular-animate.js"></script>
+  <script src="main_component/angular-resource/angular-resource.js"></script>
+  <script src="main_component/angular-route/angular-route.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+  <script src="recipequery/recipequery-module.js"></script>
+  <script src="recipequery/Recipe-service.js"></script>
+  <script src="recipe-list/recipe-list-module.js"></script>
+  <script src="recipe-list/recipe-list-component.js"></script>
+ </head>
+ <body>
+	<div class="main_view_container">
+		<div ng-view class="main_view"></div>
+	</div>
+ </body>
+</html>

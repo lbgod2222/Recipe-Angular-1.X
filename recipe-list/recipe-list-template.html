@@ -1,0 +1,24 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="header">
+			<h1>Ben's Recipes</h1>
+			<h3>Share, Health, Tasty</h3>
+		</div>
+		<!--Search set-->
+		<div class="col-md-2 search_box">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Type what you want!" ng-model="$ctrl.query" />
+				<span class="input-group-addon" type="button">Search</span>
+			</div>
+		</div>
+		<!--Main part-->
+		<div class="col-md-8 list_right">
+			<ul>
+				<li ng-repeat="recipe in $ctrl.recipes | filter:$ctrl.query | orderBy:$ctrl.orderProp"
+				class="thumbnail phone-list-item">
+					 <p>{{recipe.snippet}}</p>
+				 </li>
+			</ul>
+		</div>
+	</div>
+</div>

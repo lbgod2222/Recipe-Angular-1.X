@@ -6,4 +6,5 @@ angular.module('recipeApp', [
 	'ngRoute',
 	'recipequery',
 	'recipeList',
+	'recipeDetail'
 ]);

@@ -1,0 +1,25 @@
+<div class="detail-container container-fluid">
+	<div class="banner">
+		<i><img ng-src="{{$ctrl.recipe.imageUrl}}"/></i>
+		<div class="comment">
+			<h2>{{$ctrl.recipe.name}}</h2>
+			<p><span>"</span>{{$ctrl.recipe.comment}}<span>"</span></p>
+		</div>
+	</div>
+	<div class="ingredient">
+		<h3>Ingredients</h3>
+		<ul>
+			<li ng-repeat="(x,y) in $ctrl.recipe.ingredients">
+				{{x}}<span>{{y}}</span>
+			</li>
+		</ul>
+	</div>
+	<div class="step">
+		<h3>Directions</h3>
+		<ol type="i">
+			<li ng-repeat="step in $ctrl.recipe.step">
+				{{step}}
+			</li>
+		</ol>
+	</div>
+</div>

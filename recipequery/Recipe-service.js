@@ -9,7 +9,7 @@ angular.
 				query: {
 					method: 'GET',
 					params: {recipeId: 'recipes'},
-					isArry: true
+					isArray: true
 				}
 			});
 		}

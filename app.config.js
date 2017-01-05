@@ -11,7 +11,7 @@ angular.
 				when('/data', {
 					template: '<recipe-list></recipe-list>'
 				}).
-				when('/data/:recipeId.json', {
+				when('/data/:recipeId', {
 					template: '<recipe-detail></recipe-detail>'
 				}).
 				otherwise('/data');

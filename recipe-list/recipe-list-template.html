@@ -1,4 +1,5 @@
-<div class="container-fluid">
+
+<div class="container-fluid list-container">
 	<div class="row">
 		<div class="header">
 			<h1>Ben's Recipes</h1>
@@ -12,12 +13,14 @@
 			</div>
 		</div>
 		<!--Main part-->
-		<div class="col-md-8 list_right">
+		<div class="list_right">
 			<ul>
-				<li ng-repeat="recipe in $ctrl.recipes | filter:$ctrl.query | orderBy:$ctrl.orderProp"
-				class="thumbnail phone-list-item">
-					 <p>{{recipe.snippet}}</p>
-				 </li>
+				<li ng-repeat="recipe in $ctrl.recipes | filter:$ctrl.query">
+					<a href="#!/data/{{recipe.id}}">
+						<i><img src="{{recipe.imageUrl}}" /></i>
+						<h4>{{recipe.title}}</h4>
+					</a>
+				</li>
 			</ul>
 		</div>
 	</div>

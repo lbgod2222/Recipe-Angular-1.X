@@ -1,0 +1,24 @@
+{
+	"name":"Meatball Nirvana",
+	"comment":"These meatballs are a compilation of many, many meatball recipes to finally achieve what I was looking for... Meatball Nirvana! Cover with your favorite red sauce and serve with pasta or in crusty garlic bread rolls.",
+	"imageUrl":"img/detail/2.jpg",
+	"ingredients":{
+		"extra lean ground beef":"1 pound",
+		"sea salt":"1/2 teaspoon",
+		"onion, diced":"1",
+		"garlic salt":"1/2 tablespoon",
+		"Italian seasoning":"1/2 tablespoon",
+		"dried oregano":"3/4 teaspoon",
+		"crushed red pepper":"3/4 teaspoon",
+		"hot pepper sauce":"1 dash",
+		"Worcestershire sauce":"1/2 tablespoon",
+		"skim milk":"1/3 cup",
+		"grated Parmesan cheese":"1/4 cup",
+		"seasoned bread crumbs":"1/2 cup"
+	},
+	"step":[
+		"Preheat an oven to 400 degrees F (200 degrees C).",
+		"Place the beef into a mixing bowl, and season with salt, onion, garlic salt, Italian seasoning, oregano, red pepper flakes, hot pepper sauce, and Worcestershire sauce; mix well. Add the milk, Parmesan cheese, and bread crumbs. Mix until evenly blended, then form into 1 1/2-inch meatballs, and place onto a baking sheet.",
+		"Bake in the preheated oven until no longer pink in the center, 20 to 25 minutes."
+	]
+}
